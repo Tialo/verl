@@ -91,7 +91,7 @@ bash run_gemma.sh
   actor_rollout_ref.model.path=Qwen/Qwen2.5-0.5B-Instruct \
   data.train_batch_size=256 \
   actor_rollout_ref.actor.ppo_mini_batch_size=64 \
-  actor_rollout_ref.actor.ppo_micro_batch_size=2 \
+  actor_rollout_ref.actor.ppo_micro_batch_size_per_gpu=2 \
   critic.ppo_micro_batch_size=2
 ```
 
